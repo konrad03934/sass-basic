@@ -1,32 +1,73 @@
 @import "zmienne";
 
+//body {
+//	color: $base-color;
+//	background-color: $bg-color;
+//		
+//}
+//
+//@mixin menu-nawigacyjne {
+//	color:  red;
+//	font-size: 22px;
+//}
+//
+//
+////sposó pisania kodu i zagnieżdzania
+//nav {
+//	ul {
+//		margin: 0;
+//		padding: 0;
+//		list-style: none;
+//		
+//		li {
+//			display: inline-block;
+//			
+//			a {
+//				@include menu-nawigacyjne;
+//			}
+//		}
+//	}
+//}
+
 body {
-	color: $base-color;
-	background-color: $bg-color;
-		
-}
-
-@mixin menu-nawigacyjne {
-	color:  red;
-	font-size: 22px;
-}
-
-
-//sposó pisania kodu i zagnieżdzania
-nav {
-	ul {
-		margin: 0;
-		padding: 0;
-		list-style: none;
-		
-		li {
-			display: inline-block;
+	width: 100%;
+	background-color: #151617;
+	color: #ffffff;
+	font-size: 0.9em;
+	
+	
+	.baner {
+		width: 80%;
+		height: 80vh;
+		margin: 0 10%;
+		background: url("../img/background.png") no-repeat;
+		background-size: cover;
+	  
+		.contact-form {
+			width: 20%;
 			
-			a {
-				@include menu-nawigacyjne;
+			position: absolute;
+			top: 30%;
+			right: 20%;
+			
+			.blue {
+				background-color: navy;
+				box-sizing: border-box;
+				padding: 2% 5%;
+				
+				input, textarea {
+					margin-top: 2%;
+					width: 100%;
+				}
+				
 			}
 		}
 	}
+	
 }
 
+
+.yellow {
+		color: $theme-color;
+	}
 

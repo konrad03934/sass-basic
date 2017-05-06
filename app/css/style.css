@@ -1,19 +1,26 @@
 body {
-	color: #220000;
-	background-color: blue;
-}
+  width: 100%;
+  background-color: #151617;
+  color: #ffffff;
+  font-size: 0.9em; }
+  body .baner {
+    width: 80%;
+    height: 80vh;
+    margin: 0 10%;
+    background: url("../img/background.png") no-repeat;
+    background-size: cover; }
+    body .baner .contact-form {
+      width: 20%;
+      position: absolute;
+      top: 30%;
+      right: 20%; }
+      body .baner .contact-form .blue {
+        background-color: navy;
+        box-sizing: border-box;
+        padding: 2% 5%; }
+        body .baner .contact-form .blue input, body .baner .contact-form .blue textarea {
+          margin-top: 2%;
+          width: 100%; }
 
-nav ul {
-	margin: 0;
-	padding: 0;
-	list-style: none;
-}
-
-nav ul li {
-	display: inline-block;
-}
-
-nav ul li a {
-	color: red;
-	font-size: 22px;
-}
+.yellow {
+  color: #d1d11b; }
