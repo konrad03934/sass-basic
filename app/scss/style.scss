@@ -6,6 +6,13 @@ body {
 		
 }
 
+@mixin menu-nawigacyjne {
+	color:  red;
+	font-size: 22px;
+}
+
+
+//sposó pisania kodu i zagnieżdzania
 nav {
 	ul {
 		margin: 0;
@@ -14,7 +21,12 @@ nav {
 		
 		li {
 			display: inline-block;
+			
+			a {
+				@include menu-nawigacyjne;
+			}
 		}
 	}
 }
+
 
