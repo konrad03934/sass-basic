@@ -1,0 +1,10 @@
+body {
+  color: #220000;
+  background-color: blue; }
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+  nav ul li {
+    display: inline-block; }
